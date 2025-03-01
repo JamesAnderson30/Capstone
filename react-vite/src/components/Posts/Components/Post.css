@@ -18,15 +18,20 @@
 .PostUserArea{
   padding-top:10px
 }
+.PostReplyTag{
+    border-top: 3px grey solid;
+    border-left: 3px grey solid;
+    padding: 3px
+}
 .UserArea {
-    text-align:center;
+    text-align: center;
     grid-area: UserArea;
     border-right: 1px grey groove;
     background-color: #dddddd;
     min-height: 16lh;
-    position:relative;
+    position: relative;
     border-radius: 9px 0px 0px 9px;
-  }
+}
 .PostArea {
   white-space: pre-line;
   background-color: #ffffffeb;
